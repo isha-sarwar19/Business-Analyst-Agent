@@ -1,0 +1,31 @@
+# ===== LangGraph + LangChain Core =====
+langgraph==0.2.45
+langchain==0.3.7
+langchain-openai==0.2.14
+langchain-community==0.3.7
+langchain-core==0.3.18
+
+# ===== Structured Output =====
+pydantic==2.9.2
+
+# ===== PDF Generation =====
+reportlab==4.2.5
+
+# ===== Database (Production) =====
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.9    # PostgreSQL driver (harmless if using SQLite)
+alembic==1.13.1            # Schema migrations
+
+# ===== Environment + Utilities =====
+python-dotenv==1.0.1
+numpy==1.26.4
+requests==2.32.3
+rich                       # Pretty CLI output
+
+# ===== Vector Memory =====
+chromadb==0.5.21
+sentence-transformers==3.3.1
+pysqlite3-binary==0.5.4 # often needed for chromadb on linux
+tiktoken==0.8.0
+
+PyMuPDF==1.27.1
